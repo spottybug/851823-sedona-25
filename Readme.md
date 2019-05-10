@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Evgenia Voropaeva](https://up.htmlacademy.ru/htmlcss/25/user/851823).
-* Наставник: `Неизвестно`.
+* Наставник: [Станислав Кузнецов] (https://up.htmlacademy.ru/htmlcss/25/user/237925).
 
 ---
 
