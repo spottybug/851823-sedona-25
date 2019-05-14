@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" type="text/css" href="css/">
+  </head>
+<body>
+	<!--Шапка страницы -->
+    <header class="main-header">
+    	<nav class="main-navigation">
+    	  <img src="http://placehold.it/150x100" alt="logo">
+    	  <ul class="site-navigation">
+    			<li><a href="info.html">Информация</a></li>
+    			<li><a href="media.html">Фото и Видео</a></li>
+    			<li><a href="map.html">Карта штата</a></li>
+    			<li><a href="hotels.html">Гостиницы</a></li>	
+    		</ul>		
+    	</nav>   	
+    </header>
+    <!--Основная часть страницы -->
+    <main class="container">
+    	<section class="hotel-filters">
+    		<!--<img src="http://placehold.it/150x100" alt="logo" >-->
+    		<table id="table1">
+    			<tr>
+    				<th>Информация</th>
+    			</tr>
+    			<tr>
+    				<td>
+                    <input type="radio" name="option1" checked>
+                    <b>Бассейн</b>
+                    </td>
+    			</tr>
+    			<tr>
+    				<td>
+    				<input type="radio" name="option2">
+    				<b>Парковка</b>
+    			    </td>
+    			</tr>
+    			<tr>
+    				<td>
+    				<input type="radio" name="option3">
+    				<b>Wi-Fi</b>
+    			    </td>
+    			</tr>
+    		</table> 
+
+    		<table id="table2">
+    			<tr>
+    				<th>Тип жилья</th>
+    			</tr>
+    			<tr>
+    				<td>
+                    <input type="radio" name="option1" checked>
+                    <b>Гостиница</b>
+                    </td>
+    			</tr>
+    			<tr>
+    				<td>
+    				<input type="radio" name="option2" checked="">
+    				<b>Мотель</b>
+    			    </td>
+    			</tr>
+    			<tr>
+    				<td>
+    				<input type="radio" name="option3" checked="">
+    				<b>Апартаменты</b>
+    			    </td>
+    			</tr>
+    		</table>
+
+
+    		<table id="table3">
+    			<tr>
+    				<th>Стоимость в сутки (р):</th>
+    			</tr>
+    			<tr>
+    				<td> от 0 </td>
+    			</tr>
+    			<tr>
+    				<td> до 3000 </td>
+    			</tr>
+              <!--Здесь шкала-->
+    		</table>
+    			
+    		<button class="submit">Показать</button>
+    	</section>
+    	
+    	<section class="search_results">
+    		<ul class="results-list">
+    			<li>
+    				<b>Найдено: 3</b>
+    			</li>
+    			<li class="sort">Сортировка</li>
+    			<li class="sort_by_price">
+    				<a href="#">По цене:</a>
+    			</li>
+    			<li class="sort_by_type">
+    				<a href="#">По типу:</a>
+    			</li>
+    			<li class="sort_by_rating">
+    				<a href="#">По рейтингу:</a>
+    			</li>
+    		</ul>
+
+    	</section>
+
+    	<section class="hotel_results">
+    		<div class="hotel-list">
+    			<div class="Amara_hotel">
+    			  <img src="http://placehold.it/150x100" alt="image">
+    			  <strong>Amara Resort & Spa</strong>
+    			  <label class="hotel_name">Гостиница</label>
+    			  <label class="hotel_price">От 4000 Р</label>
+    			  <a href="#" class="learn_more" label="hotel_name">Подробнее</a>
+    			  <button class="book_hotel">Забронировать</button>
+    			</div>
+
+    			<div class="Desert_motel">
+    			  <img src="http://placehold.it/150x100" alt="image">
+    			  <strong>Desert Quail Inn</strong>
+    			  <label class="hotel_name">Мотель</label>
+    			  <label class="hotel_price">От 3000 Р</label>
+    			  <a href="#" class="learn_more" label="hotel_name">Подробнее</a>
+    			  <button class="book_hotel">Забронировать</button>
+    			</div>
+
+    			<div class="Villas_appartment">
+    			  <img src="http://placehold.it/150x100" alt="image">
+    			  <strong>Villas At Poco Diablo</strong>
+    			  <label class="hotel_name">Апартаменты</label>
+    			  <label class="hotel_price">От 2000 Р</label>
+    			  <a href="#" class="learn_more" label="hotel_name">Подробнее</a>
+    			  <button class="book_hotel">Забронировать</button>
+    			</div>
+    		</div>
+    	</section>
+    </main>
+
+        <!--Футер-->
+    <footer class="page-footer">
+    	<div class="contact-information">
+    		<div class="hashtag">
+    			<a href="#">#visitsedona</a>
+    		</div>
+
+    		<div class="social-network">
+    			<a href="#">twitter</a>
+    			<a href="#">facebook</a>
+    			<a href="#">youtube</a>
+    		</div>
+
+    		<div class="copyright">
+    			<img src="http://placehold.it/150x100" alt="logo_htmlacademy">
+    			<p>website by</p>
+    		</div>
+    	</div>
+    </footer>
+
+
+	
+</body>
+</html>
