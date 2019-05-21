@@ -8,40 +8,46 @@
 <body>
 	<!--Шапка страницы -->
     <header class="main-header">
-    	<nav class="main-navigation">
-    	  <img src="http://placehold.it/150x100" alt="logo">
-    	  <ul class="site-navigation">
-    			<li><a href="info.html">Информация</a></li>
-    			<li><a href="media.html">Фото и Видео</a></li>
-    			<li><a href="map.html">Карта штата</a></li>
-    			<li><a href="hotels.html">Гостиницы</a></li>	
-    		</ul>		
-    	</nav>   	
+        <nav class="main-navigation">
+            <a class="main-header-logo"> 
+                <img src="img/index-logo.svg" width="" height="" alt="Логотип Седона">
+            </a>
+            
+            <ul class="site-navigation">
+                <li class="info"><a href="info.html">Информация</a></li>
+                <li class="media"><a href="media.html">Фото и Видео</a></li>
+                <li class="map"><a href="map.html">Карта штата</a></li>
+                <li class="hotels"><a href="hotels.html">Гостиницы</a></li>    
+           </ul> 
+        </nav>      
     </header>
+
     <!--Основная часть страницы -->
     <main class="container">
+
+        <h1 class="visually-hidden">Отели_фильтры</h1>
+
     	<section class="hotel-filters">
-    		<!--<img src="http://placehold.it/150x100" alt="logo" >-->
-    		<table id="table1">
+    		<table id="table1"> <!--Исправить после лекции про формы. Добавить картинку-->
     			<tr>
     				<th>Информация</th>
     			</tr>
     			<tr>
     				<td>
                     <input type="radio" name="option1" checked>
-                    <b>Бассейн</b>
+                    <p>Бассейн</p>
                     </td>
     			</tr>
     			<tr>
     				<td>
     				<input type="radio" name="option2">
-    				<b>Парковка</b>
+    				<p>Парковка</p>
     			    </td>
     			</tr>
     			<tr>
     				<td>
     				<input type="radio" name="option3">
-    				<b>Wi-Fi</b>
+    				<p>Wi-Fi</p>
     			    </td>
     			</tr>
     		</table> 
@@ -53,19 +59,19 @@
     			<tr>
     				<td>
                     <input type="radio" name="option1" checked>
-                    <b>Гостиница</b>
+                    <p>Гостиница</p>
                     </td>
     			</tr>
     			<tr>
     				<td>
     				<input type="radio" name="option2" checked="">
-    				<b>Мотель</b>
+    				<p>Мотель</p>
     			    </td>
     			</tr>
     			<tr>
     				<td>
     				<input type="radio" name="option3" checked="">
-    				<b>Апартаменты</b>
+    				<p>Апартаменты</p>
     			    </td>
     			</tr>
     		</table>
@@ -88,51 +94,92 @@
     	</section>
     	
     	<section class="search_results">
-    		<ul class="results-list">
-    			<li>
-    				<b>Найдено: 3</b>
-    			</li>
-    			<li class="sort">Сортировка</li>
-    			<li class="sort_by_price">
+
+    		<div class="results-list">
+    			
+    			<h3>Найдено: 3</h3>
+    			<p>Сортировка</p>
+
+                <ul class="sort_by">
+    			
+                   <li class="sort_by_price">
     				<a href="#">По цене:</a>
-    			</li>
-    			<li class="sort_by_type">
+    			   </li>
+    			
+                   <li class="sort_by_type">
     				<a href="#">По типу:</a>
-    			</li>
-    			<li class="sort_by_rating">
+    			   </li>
+    			
+                   <li class="sort_by_rating">
     				<a href="#">По рейтингу:</a>
-    			</li>
-    		</ul>
+    			   </li>
+
+                </ul>  
+
+                <div> <!--Стрелки-->
+                    <span class="arrow_up">&#8593;</span>
+                    <span class="arrow_down">&#8595;</span>
+                </div> 
+    		</div>
 
     	</section>
 
     	<section class="hotel_results">
+            
+            <h2 class="visually-hidden">Список_отелей</h2>
+
     		<div class="hotel-list">
     			<div class="Amara_hotel">
-    			  <img src="http://placehold.it/150x100" alt="image">
-    			  <strong>Amara Resort & Spa</strong>
-    			  <label class="hotel_name">Гостиница</label>
-    			  <label class="hotel_price">От 4000 Р</label>
-    			  <a href="#" class="learn_more" label="hotel_name">Подробнее</a>
-    			  <button class="book_hotel">Забронировать</button>
+                    <div class="hotel_1">
+    			        <img src="http://placehold.it/150x100" alt="image">
+    			        <h3>Amara Resort & Spa</h3>
+    			        <span class="hotel_name">Гостиница</span>
+    			        <span class="hotel_price">От 4000 Р</span>
+    			        <a href="#" class="learn_more" label="hotel_name">Подробнее</a>
+    			        <button class="book_hotel">Забронировать</button>
+                    </div>
+
+                    <div class="rating_fourStars">
+                        <span class="star1">звездочка</span>
+                        <span class="star2">звездочка</span>
+                        <span class="star3">звездочка</span>
+                        <span class="star4">звездочка</span>
+                        <p><input class="four_stars" value="Рейтинг: 8.5"></p>    
+                   </div>
     			</div>
 
     			<div class="Desert_motel">
-    			  <img src="http://placehold.it/150x100" alt="image">
-    			  <strong>Desert Quail Inn</strong>
-    			  <label class="hotel_name">Мотель</label>
-    			  <label class="hotel_price">От 3000 Р</label>
-    			  <a href="#" class="learn_more" label="hotel_name">Подробнее</a>
-    			  <button class="book_hotel">Забронировать</button>
-    			</div>
+                    <div class="hotel_2">
+    			        <img src="http://placehold.it/150x100" alt="image">
+    			        <h3>Desert Quail Inn</h3>
+    			        <span class="hotel_name">Мотель</span>
+    			        <span class="hotel_price">От 3000 Р</span>
+    			        <a href="#" class="learn_more" label="hotel_name">Подробнее</a>
+    			        <button class="book_hotel">Забронировать</button>
+                    </div>
+
+                    <div class="rating_threeStars">
+                        <span class="star1">звездочка</span>
+                        <span class="star2">звездочка</span>
+                        <span class="star3">звездочка</span>
+                        <p><input class="three_stars" value="Рейтинг: 8.9"></p>    
+                    </div>
 
     			<div class="Villas_appartment">
-    			  <img src="http://placehold.it/150x100" alt="image">
-    			  <strong>Villas At Poco Diablo</strong>
-    			  <label class="hotel_name">Апартаменты</label>
-    			  <label class="hotel_price">От 2000 Р</label>
-    			  <a href="#" class="learn_more" label="hotel_name">Подробнее</a>
-    			  <button class="book_hotel">Забронировать</button>
+                    <div class="hotel_3">
+    			      <img src="http://placehold.it/150x100" alt="image">
+    			      <h3>Villas At Poco Diablo</h3>
+    			      <span class="hotel_name">Апартаменты</span>
+    			      <span class="hotel_price">От 2000 Р</span>
+    			      <a href="#" class="learn_more" label="hotel_name">Подробнее</a>
+    			      <button class="book_hotel">Забронировать</button>
+                    </div>
+
+                    <div class="rating_twoStars">
+                        <span class="star1">звездочка</span>
+                        <span class="star2">звездочка</span>
+                        <p><input class="two_stars" value="Рейтинг: 9.2"></p>  
+                    </div>
     			</div>
     		</div>
     	</section>
@@ -140,22 +187,21 @@
 
         <!--Футер-->
     <footer class="page-footer">
-    	<div class="contact-information">
-    		<div class="hashtag">
-    			<a href="#">#visitsedona</a>
-    		</div>
+        <div class="contact-information">
+           <a href="#">#visitsedona</a>
+        
+            <div class="social-network">
+                <a href="#" class="twitter">twitter</a>
+                <a href="#" class="facebook">facebook</a>
+                <a href="#" class="youtube">youtube</a>
+            </div>
 
-    		<div class="social-network">
-    			<a href="#">twitter</a>
-    			<a href="#">facebook</a>
-    			<a href="#">youtube</a>
-    		</div>
-
-    		<div class="copyright">
-    			<img src="http://placehold.it/150x100" alt="logo_htmlacademy">
-    			<p>website by</p>
-    		</div>
-    	</div>
+            <a href="" class="copyright">
+                <p>website by</p>
+                <img src="http://placehold.it/150x100" alt="logo_htmlacademy">          
+            </a>
+            
+        </div>  
     </footer>
 
 
