@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="11" viewBox="0 0 110 11">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 14px;
+        fill: #fff;
+        font-family: "PT Sans";
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <text id="Забронировать" class="cls-1" x="0.473" y="10.207">Забронировать</text>
+</svg>
