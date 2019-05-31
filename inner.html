@@ -26,72 +26,54 @@
     <!--Основная часть страницы -->
     <main class="container">
 
-        <h1 class="visually-hidden">Отели_фильтры</h1>
+        <h1 class="visually-hidden">Отели</h1>
 
     	<section class="hotel-filters">
-    		<table id="table1"> <!--Исправить после лекции про формы. Добавить картинку-->
-    			<tr>
-    				<th>Информация</th>
-    			</tr>
-    			<tr>
-    				<td>
-                    <input type="radio" name="option1" checked>
-                    <p>Бассейн</p>
-                    </td>
-    			</tr>
-    			<tr>
-    				<td>
-    				<input type="radio" name="option2">
-    				<p>Парковка</p>
-    			    </td>
-    			</tr>
-    			<tr>
-    				<td>
-    				<input type="radio" name="option3">
-    				<p>Wi-Fi</p>
-    			    </td>
-    			</tr>
-    		</table> 
+    		<form id="table"> 
+                <fieldset class="information">
+                    <h2 class="visually-hidden">Фильтр</h2>
+                    <legend>Информация</legend>
 
-    		<table id="table2">
-    			<tr>
-    				<th>Тип жилья</th>
-    			</tr>
-    			<tr>
-    				<td>
-                    <input type="radio" name="option1" checked>
-                    <p>Гостиница</p>
-                    </td>
-    			</tr>
-    			<tr>
-    				<td>
-    				<input type="radio" name="option2" checked="">
-    				<p>Мотель</p>
-    			    </td>
-    			</tr>
-    			<tr>
-    				<td>
-    				<input type="radio" name="option3" checked="">
-    				<p>Апартаменты</p>
-    			    </td>
-    			</tr>
-    		</table>
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+                    <label for="filter-baxter-of-california">Бассейн</label>
 
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california">
+                    <label for="filter-baxter-of-california">Парковка</label>
 
-    		<table id="table3">
-    			<tr>
-    				<th>Стоимость в сутки (р):</th>
-    			</tr>
-    			<tr>
-    				<td> от 0 </td>
-    			</tr>
-    			<tr>
-    				<td> до 3000 </td>
-    			</tr>
-              <!--Здесь шкала-->
-    		</table>
-    			
-    		<button class="submit">Показать</button>
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california">
+                    <label for="filter-baxter-of-california">Wi-Fi</label>
+
+                </fieldset>  
+
+                <fieldset class="accommodation">
+                    <h2 class="visually-hidden">Фильтр</h2>
+                    <legend>Информация</legend>
+
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+                    <label for="filter-baxter-of-california">Гостиница</label>
+
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+                    <label for="filter-baxter-of-california">Мотель</label>
+
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+                    <label for="filter-baxter-of-california">Апартаменты</label>
+
+                </fieldset> 
+
+                <fieldset class="accommodation">
+                    <h2 class="visually-hidden">Фильтр</h2>
+                    <legend>Стоимость в сутки (р):</legend>
+
+                    <p><input type="filter_price" class="filter_hotels" name="hotels" value="От 0">
+                          <img src="img/svg">
+                    </p>
+
+                    <p><input type="filter_price" class="filter_hotels" name="hotels" value="До 3000">
+                          <img src="img/svg">
+                    </p>
+                    <button type="submit" class="filter-button button">Показать</button>
+                </fieldset> 
+            </form>      
     	</section>
     	
     	<section class="search_results">
@@ -118,8 +100,8 @@
                 </ul>  
 
                 <div> <!--Стрелки-->
-                    <span class="arrow_up">&uarr;</span>
-                    <span class="arrow_down">&darr;</span>
+                    <span class="arrow_up"><img src="img/icon-up-dir.svg"></span>
+                    <span class="arrow_down"><img src="img/icon-down-dir.svg"></span>
                 </div> 
     		</div>
 
@@ -156,7 +138,7 @@
     			        <span class="hotel_name">Мотель</span>
     			        <span class="hotel_price">От 3000 Р</span>
     			        <a href="#" class="learn_more" label="hotel_name">Подробнее</a>
-    			        <button class="book_hotel">Забронировать</button>
+    			        <button class="book_hotel" tabindex="0">Забронировать</button>
                     </div>
 
                     <div class="rating">
