@@ -1,29 +1,175 @@
 body {
-
   margin: 0;
   padding: 0;
 
-  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 26px;
   font-weight: 700;
-  color: #00000;
+  color: #000; /*изменю позже на белый*/
   text-transform: uppercase;
-  
+
+
   background-color: #ffffff;
-  background-image: url("/img/main_photo.jpg");
+  background-image: url("../img/main_photo.jpg");
   background-position: top center;
   background-repeat: no-repeat;
+
+}
+a {
+  text-decoration: none;
+} 
+
+
+.site-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+
+  background-color: #fdfdfd;
+} 
+
+.site-navigation,
+.sort_by {
+  list-style: none;
+} 
+
+.site-navigation a {
+  color: #000;
+} 
+
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: #82b3d4;
+} 
+
+.hotel-filters {
+  color:#fff;
+  text-align: left;
+}
+
+.sort_by a{
+  color: #000;
+  width: 1200px;
+  height: 88px;
+  text-align: left;
+} 
+
+.arrow_up svg: hover,
+.arrow_up svg: focus,
+.arrow_up svg: active {
+   background-color: #ffff;
+} 
+
+
+.
+.rating_score {
+  color: #bababa;
+  background-color: #f2f2f2;
+  width: 111px;
+  height: 27px;
+}
+
+/*.stars {
+  
+  background-image: url("../img/star.svg");
+  background-image: url("../img/star.svg");
+  background-image: url("../img/star.svg");
+  background-image: url("../img/star.svg");
+}*/
+
+.hotel_results {
+  list-style: none;
+} 
+
+.book_hotel {
+  color:#fff;
+  background-color: #766257;
+  border: none;
+  text-transform: uppercase;
+}
+
+.book_hotel :hover,
+.book_hotel :focus {
+  background-color: #604e42;
+  
 }
 
 
+.learn_more {
+  color: #ffff;
+  background-color: #81b2d2;
+  text-transform: uppercase;
+}
+
+.learn_more :hover,
+.learn_more :focus {
+  color: #fff;
+  background-color: #689dbd;
+} 
 
 
 
 
 
+.page-footer {
+  color: #ffffff;
+
+  background-color: #f9fbf6;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.contact-information a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+
+.visitsedona {
+  text-align: left;
+
+}
+
+.social-network {
+  color:#fff;
+  background-color: 81b3d2;
+  text-align: center;
+
+} 
+
+.twitter {
+  background-image: url("../img/twitter.svg");
+}
+
+/*.twitter svg: hover,
+.twitter svg: focus,
+.twitter svg: active {
+  background-color: #80b3d2;
+}*/
 
 
+.facebook {
+  background-image: url("../img/fb-icon.svg");
+}
 
 
-	
+.youtube {
+  background-image: url("../img/youtube.svg");
+
+}
+
+.copyright {
+  text-align: center;
+} 
+
+.copyright a, svg:hover,
+.copyright a, svg:focus {
+  text-decoration: none;
+  background-color: #80b3d2;
+}
