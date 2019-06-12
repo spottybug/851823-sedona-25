@@ -6,7 +6,7 @@ body {
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
-  color: #000; /*изменю позже на белый*/
+  color: #000;
   text-transform: uppercase;
 
 
@@ -20,7 +20,13 @@ a {
   text-decoration: none;
 } 
 
+.visually-hidden {
+ display: none;
+}
 
+.main-navigation{
+  background-color: #fff;
+}
 .site-navigation {
   font-size: 14px;
   line-height: 26px;
@@ -36,6 +42,7 @@ a {
 
 .site-navigation a {
   color: #000;
+  font-weight: bold;
 } 
 
 
@@ -44,39 +51,86 @@ a {
   background-color: #82b3d4;
 } 
 
-.hotel-filters {
+
+.information, 
+.accommodation, 
+.price_per_night  {
   color:#fff;
-  text-align: left;
+}
+
+.filter-swimmingpool {
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+
+}
+
+
+.hotel-list {
+  color:#000;
+  background-color:#fff;
+
+}
+
+.results-list {
+  color: #000;
+  background-color: #fff;
+}
+
+.results-list p {
+   font-weight: normal;
 }
 
 .sort_by a{
-  color: #000;
-  width: 1200px;
-  height: 88px;
-  text-align: left;
+  font-weight: normal;
 } 
+
+.sort_by_price a{
+  color: #81b3d2;
+}
+
+.sort_by_type a{
+  color: #e0e0e0;
+}
+
+.sort_by_rating a{
+  color: #e0e0e0;
+}
+
 
 .arrow_up svg: hover,
-.arrow_up svg: focus,
-.arrow_up svg: active {
-   background-color: #ffff;
+.arrow_up svg: focus {
+   color: #81b3d2;
 } 
 
 
-.
+.hotel_results span, a {
+  font-weight: normal; 
+
+}
+
+.hotel_results span {
+  color: #5c5c5c;
+}
+
+
 .rating_score {
   color: #bababa;
   background-color: #f2f2f2;
   width: 111px;
   height: 27px;
+  font-weight: normal;
 }
 
 /*.stars {
   
   background-image: url("../img/star.svg");
-  background-image: url("../img/star.svg");
-  background-image: url("../img/star.svg");
-  background-image: url("../img/star.svg");
+  background-repeat:no-repeat center center;
+  width: 50px;
+  height: 50px;
+
+  
 }*/
 
 .hotel_results {
@@ -110,15 +164,13 @@ a {
 } 
 
 
-
-
-
 .page-footer {
   color: #ffffff;
 
   background-color: #f9fbf6;
   background-position: 0 0;
   background-repeat: repeat;
+
 }
 
 .contact-information a {
@@ -133,6 +185,7 @@ a {
 
 .visitsedona {
   text-align: left;
+  font-weight: bold;
 
 }
 
@@ -145,31 +198,56 @@ a {
 
 .twitter {
   background-image: url("../img/twitter.svg");
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 49px;
 }
 
-/*.twitter svg: hover,
-.twitter svg: focus,
-.twitter svg: active {
-  background-color: #80b3d2;
-}*/
+.twitter svg: hover,
+.twitter svg: focus {
+  color: #fff;
+  background-color: #669ebf;
+}
 
 
 .facebook {
   background-image: url("../img/fb-icon.svg");
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 49px;
+}
+
+.facebook svg:hover,
+.facebook svg:focus {
+  color: #fff;
+  background-color: #669ebf;
 }
 
 
 .youtube {
   background-image: url("../img/youtube.svg");
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 49px;
 
+} 
+
+.youtube svg:hover,
+.youtube svg:focus {
+  color: #fff;
+  background-color : #669ebf;
+  text-decoration: none;
 }
 
-.copyright {
-  text-align: center;
+.copyright a, span {
+  color:#424242;
+  text-align: right;
+
+
 } 
 
 .copyright a, svg:hover,
 .copyright a, svg:focus {
-  text-decoration: none;
+  color: #fff;;
   background-color: #80b3d2;
 }

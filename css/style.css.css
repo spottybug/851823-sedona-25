@@ -10,7 +10,7 @@ body {
   text-transform: uppercase;
 
 
-  background-color: #82b3d4;
+  background-color: #;
   background-image: url("../img/main_photo.jpg");
   background-position: top center;
   background-repeat: no-repeat;
@@ -48,13 +48,19 @@ a {
   list-style: none;
 }
 
+.visually-hidden {
+ display: none;
+}
+
 .hotel-view {
   text-align: left;
 }
 
 .real_town {
   text-align: left;
-}
+  color: #fff;
+} 
+
 .real_town h2 {
   font-size: 14px;
   line-height: 21px;
@@ -67,16 +73,132 @@ a {
   color: #000;
 } 
 
-.sightseeng-item {
+.features-list {
+  background-color: #fff;
+  color: #7d7d7d;
+}
+
+.features-list p{
+   font-size: 14px;
+   font-weight: normal;
+}
+
+.accommodation {
+   color: #81b3d2;
+   background-image: url("../img/house-icon.svg") no-repeat center center;
+   width: 95px;
+   height: 82px;
+
+} 
+
+.accommodation {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.food {
+   color: #81b3d2;
+   background-image: url("../img/burger-icon.svg") no-repeat center center;
+   width: 95px;
+   height: 82px;
+
+}
+
+.food h4 {
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.souvenir {
+   color: #81b3d2;
+   background-image: url("../img/gift-icon.svg") no-repeat center center;
+   width: 95px;
+   height: 82px;
+
+}
+
+.souvenir h4 {
+  font-size: 14 px;
+  font-weight: bold;
+}
+
+.sightseeng-item-one {
+  background-color: #81b3d2;
+}
+
+.sightseeng-item-one h4 {
+   color: #ffff;
+}
+.sightseeng-item-one p {
+  font-size: 14 px;
+  color: #ffff;
+  font-weight: normal;
+
+} 
+
+.sightseeng-item-two {
+ color: #424242;
+ background-color: #eeeeee;
+}
+
+.sightseeng-item-two h4 {
+   color: #000;
+}
+.sightseeng-item-two p {
+  font-size: 14 px;
+  color: #424242;
+  font-weight: normal;
+
+}
+
+.sightseeng-item-three {
   background-color: #eeeeee;
 }
 
+.sightseeng-item-three h4 {
+   color: #000;
+}
+.sightseeng-item-three p {
+  font-size: 14 px;
+  color: #424242;
+  font-weight: normal;
+
+} 
+
+.sightseeng-item-four {
+  background-color: #eeeeee;
+}
+
+.sightseeng-item-four h4 {
+   color: #000;
+}
+.sightseeng-item-four p {
+  font-size: 14 px;
+  color: #424242;
+  font-weight: normal;
+
+}
+
+.sightseeng-item {
+  background-color: #eeeeee;
+} 
+
+
+.find-hotel p{
+  font-size: 14 px;
+  color: #424242;
+  font-weight: normal;
+  text-align: center;
+
+}
+
 .form {
-  color: #000000;
+  color: #000;
 
   background-color: #ffffff;
   background-position: 0 0;
-  background-repeat: repeat;
+  background-repeat: repeat; 
 }
 
 .form h5 {
@@ -110,7 +232,7 @@ a {
 
 
 .contact-information {
-  color: #000000;
+  color: #000;
 
   background-color: #ffffff;
   background-position: 0 0;
@@ -123,8 +245,8 @@ a {
 }
 
 .hotel-search-button:hover,
-.hotel-search-button:focus,
-.hotel-search-button:active {
+.hotel-search-button:focus {
+  color:#928a87;
   background-color: #663d15;
 }
 
@@ -155,7 +277,95 @@ a {
 .filter-button-button:focus,
 .filter-button-button:active {
   background-color: #5596be;
+} 
+
+
+
+.page-footer {
+  color: #ffffff;
+
+  background-color: #f9fbf6;
+  background-position: 0 0;
+  background-repeat: repeat;
+  
 }
+
+.contact-information a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  text-decoration: none;
+}
+
+.visitsedona {
+  text-align: left;
+
+}
+
+.social-network {
+  color:#fff;
+  background-color: 81b3d2;
+  text-align: center;
+
+} 
+
+.twitter {
+  background-image: url("../img/twitter.svg");
+  width: 46px;
+  height: 49px;
+}
+
+.twitter svg: hover,
+.twitter svg: focus {
+  color: #89b7d1;
+  background-color: #669ebf;
+}
+
+
+.facebook {
+  background-image: url("../img/fb-icon.svg");
+  text-decoration: none;
+  width: 46px;
+  height: 49px;
+}
+
+.facebook svg:hover,
+.facebook svg:focus {
+  color: #89b7d1;
+  background-color: #669ebf;
+}
+
+
+.youtube {
+  background-image: url("../img/youtube.svg");
+  text-decoration: none;
+  width: 46px;
+  height: 49px;
+
+} 
+
+.youtube svg:hover,
+.youtube svg:focus {
+  color: #89b7d1;
+  background-color : #669ebf;
+  text-decoration: none;
+}
+
+.copyright a, span {
+  color:#424242;
+  text-align: right;
+
+} 
+
+.copyright a, svg:hover,
+.copyright a, svg:focus {
+  color: #94b9d4;
+  background-color: #80b3d2;
+}
+
 
 
  
