@@ -6,31 +6,101 @@ body {
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
-  color: #000; /*изменю позже на белый*/
-  text-transform: uppercase;
+  color: #000;
+  text-transform: uppercase; 
+
+  }
 
 
-  background-color: #;
-  background-image: url("../img/main_photo.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-
-}
 a {
   text-decoration: none;
 } 
 
+/*шапка хэдер*/
+.main-header {
+  background-image: url("../img/main_photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat; 
+  width: 1200px;
+  height: 800px;
+}
+
+/*навигация*/
 .main-navigation {
   font-size: 14px;
   line-height: 26px;
-  color: #ffffff;
-
-  background-color: #fdfdfd;
+  
 } 
+/*логотип*/
+.main-header-logo {
+  width: 140px;
+  height: 71px;
+  object-fit: contain;
+}
+
+/*информация*/
+.info-link {
+  width: 93px;
+  height: 12px;
+  font-family: PT Sans Bold, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  
+}
+
+/*фото_видео*/
+.media-link {
+  width: 93px;
+  height: 12px;
+  font-family: PT Sans Bold, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  
+}
+
+/*карта*/
+.map-link {
+  width: 93px;
+  height: 12px;
+  font-family: PT Sans Bold, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+/*гостиницы*/
+.hotels-link {
+  width: 93px;
+  height: 12px;
+  font-family: PT Sans Bold, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+}
+
 
 .main-navigation,
 .features-list,
-.sightseeing-list {
+.sightseeing-list,
+.site-navigation {
   list-style: none;
 } 
 
@@ -43,6 +113,41 @@ a {
 .main-navigation a:focus {
   background-color: #82b3d4;
 } 
+
+/*белая полоска*/
+.polygon {
+  width: 1200px;
+  height: 216px;
+
+}
+
+/*логотип*/
+.welcome img{
+  width: 459px;
+  height: 353px;
+  object-fit: contain;
+  text-align: center;
+}
+
+
+.deserves_better {
+  font-family: PT Sans Bold, Arial, sans-serif; 
+  font-size: 21px;
+  line-height: 26px;
+  color: #000;
+  text-align: center;
+}
+
+.five_reasons {
+  font-family: PT Sans Bold, Arial, sans-serif; 
+  font-size: 14px;
+  font-weight: normal;
+
+  color: #333333;
+  text-align: center;
+
+}
+
 
 .features {
   list-style: none;
@@ -57,77 +162,184 @@ a {
 }
 
 .real_town {
-  text-align: left;
+  color: #fff;
+  width: 400px;
+  height: 256px;
+  background-color: #81b3d2;
+} 
+
+
+.real_town img {
+  width: 800px;
+  height: 256px;
+  object-fit: contain;
+
+  }
+
+
+.real_town h3 {
+  font-size: 21px;
+  line-height: 26px; 
+  font-family: PTSans Bold, Arial, sans-serif;
+  font-weight: normal;
+  background-color: #81b3d2;
+  
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.real_town p {
+  /*width: 489px;
+  height: 13px;*/
+  font-family: PTSans Bold, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  /*line-height: 1.86;*/
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+
+}
+
+.real_town {
+  width: 280px;
+  height: 146px;
+  padding: 46px 60px 64px 60px;
+}
+
+
+.real_town_picture {
+  width: 800px;
+  height: 256px;
+  object-fit: contain;
+}
+
+.sightseeng-item-one h3 {
+  font-size: 14px;
+  line-height: 21px;
   color: #fff;
 } 
 
-.real_town h2 {
-  font-size: 14px;
-  line-height: 21px;
+
+.sightseeng-item-one {
+  width: 303px;
+  height: 142px;
+  padding: 49px 49px 65px 48px;
 }
 
-.feature-item h4,
-.sightseeng-item h4 {
-  font-size: 14px;
-  line-height: 21px;
-  color: #000;
-} 
+
 
 .features-list {
   background-color: #fff;
   color: #7d7d7d;
 }
 
-.features-list p{
-   font-size: 14px;
-   font-weight: normal;
+
+.features-list h3 {
+  /*width: 67px;
+  height: 19px;*/
+  font-family: PTSans Bold, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000;
+
 }
 
-.accommodation {
-   color: #81b3d2;
-   background-image: url("../img/house-icon.svg") no-repeat center center;
-   width: 95px;
-   height: 82px;
+
+.features-list p {
+  /*width: 252px;
+  height: 34px;*/
+  font-family: PTSans Bold, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+} 
+
+.icon-accommodation {
+   /*background-image: url("../img/house-icon.svg");*/
+   background-repeat: no-repeat;
+   width: 75px;
+   height: 72px;
+   object-fit: contain;
+   align-content: center;
 
 } 
 
-.accommodation {
+
+.icon-food {
+   /*background-image: url("../img/burger-icon.svg")*/
+   background-repeat: no-repeat;
+   width: 74px;
+   height: 70px;
+   object-fit: contain;
+   align-content: center;
+   
+
+}
+
+
+.icon-souvenir {
+   /*background-image: url("../img/gift-icon.svg");*/
+   background-repeat: no-repeat;
+   width: 64px;
+   height: 76px;
+   object-fit: contain;
+   align-content: center;
+
+}
+
+.sightseeing-list h3 {
+
+  /*width: 303px;
+  height: 142px;*/
+  font-family: PTSans Bold, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffff;
+}
+
+
+.sightseeing-list p{
+  font-family: PTSans Bold, Arial, sans-serif;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffff;
 }
 
-.food {
-   color: #81b3d2;
-   background-image: url("../img/burger-icon.svg") no-repeat center center;
-   width: 95px;
-   height: 82px;
-
-}
-
-.food h4 {
-  font-size: 14px;
-  font-weight: bold;
-
-}
-
-.souvenir {
-   color: #81b3d2;
-   background-image: url("../img/gift-icon.svg") no-repeat center center;
-   width: 95px;
-   height: 82px;
-
-}
-
-.souvenir h4 {
-  font-size: 14 px;
-  font-weight: bold;
-}
 
 .sightseeng-item-one {
   background-color: #81b3d2;
+  width: 303px;
+  height: 142px;
+  font-family: PTSans, Bold, Arial, sans-serif;
+  font-size: 14px;
 }
 
-.sightseeng-item-one h4 {
+.sightseeng-item-one h3 {
    color: #ffff;
 }
 .sightseeng-item-one p {
@@ -140,43 +352,94 @@ a {
 .sightseeng-item-two {
  color: #424242;
  background-color: #eeeeee;
+ width: 208px;
+ height: 143px;
+ padding:50px 97px 63px 95px;
 }
 
-.sightseeng-item-two h4 {
+
+.sightseeng-item-two h3 {
    color: #000;
-}
-.sightseeng-item-two p {
-  font-size: 14 px;
-  color: #424242;
-  font-weight: normal;
+   font-size: 21px;
+   font-weight: bold;
 
+   font-family: PTSans, Bold, Arial, sans-serif;
+   text-align: center;
 }
+
+
+.sightseeng-item-two p {
+  font-family: PTSans, Bold, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+
 
 .sightseeng-item-three {
-  background-color: #eeeeee;
+ color: #424242;
+ background-color: #eeeeee;
+ width: 262px;
+ height: 142px;
+ padding:50px 69px 64px 69px;
 }
 
-.sightseeng-item-three h4 {
+.sightseeng-item-three h3 {
    color: #000;
+   font-size: 21px;
+   font-weight: bold;
+
+   font-family: PTSans, Bold, Arial, sans-serif;
+   text-align: center;
 }
+
+
 .sightseeng-item-three p {
-  font-size: 14 px;
-  color: #424242;
+  font-family: PTSans, Bold, Arial, sans-serif;
+  font-size: 14px;
   font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
 
 } 
 
 .sightseeng-item-four {
-  background-color: #eeeeee;
+ color: #424242;
+ background-color: #eeeeee;
+ width: 262px;
+ height: 142px;
+ padding:50px 69px 64px 69px;
 }
 
-.sightseeng-item-four h4 {
+.sightseeng-item-four h3 {
    color: #000;
+   font-size: 21px;
+   font-weight: bold;
+
+   font-family: PTSans, Bold, Arial, sans-serif;
+   text-align: center;
 }
+
+
 .sightseeng-item-four p {
-  font-size: 14 px;
-  color: #424242;
+  font-family: PTSans, Bold, Arial, sans-serif;
+  font-size: 14px;
   font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
 
 }
 
@@ -197,13 +460,34 @@ a {
   color: #000;
 
   background-color: #ffffff;
-  background-position: 0 0;
-  background-repeat: repeat; 
+  /*background-position: 0 0;
+  background-repeat: repeat; */
+
 }
 
 .form h5 {
+  font-family: PTSans, Arial, sans-serif;
+  font-size:30px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  
+} 
+
+.form p {
+  font-family: PTSans;
   font-size: 14px;
-  color:#000;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
 }
 
 .hotel_search {
@@ -211,9 +495,86 @@ a {
   line-height: 21px;
   border: 7px solid #ffffff;
   width:568px;
-  height: 483px;
-  background-color:#fdfdf;
+  height: 395px;
+  background-color:#fdfdfd;
 }
+
+
+.date-check-in label  {
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+} 
+
+
+.date-check-out label  {
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+
+.adults-info label  {
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.kids-info label  {
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+
+.btn-button {
+  width: 21px;
+  height: 22px;
+  object-fit: contain;
+  background-color: #a9a9a9;
+}
+
+
+.filter_check-in {
+  width: 346px;
+  height: 38px;
+  background-color: #f2f2f2;
+
+} 
+
+/*.filter_check-in input {
+  width: 103px;
+  height: 11px;
+  font-family: PTSans, Bold, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}*/
 
 
 .hotel_search input {
@@ -222,7 +583,28 @@ a {
   background-color: transparent;
   border: 2px solid;
   border-color: #f2f2f2;
+  width: 346px;
+  height: 38px;
+
+  font-family: PTSans, Bold, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000; 
+  text-transform: uppercase;
+
 }
+
+
+.filter_check-in {
+  width: 103px;
+  height: 11px;
+}
+
 
 .hotel_search: hover,
 .hotel_search: focus,
@@ -242,6 +624,18 @@ a {
 .hotel-search-button {
   color: #fff;
   background-color:#766357;
+  width: 289px;
+  height: 18px;
+  padding: 35px 139px 33px 140px;
+
+  font-family: PTSans, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
 }
 
 .hotel-search-button:hover,
@@ -267,8 +661,20 @@ a {
 }
 
 .filter-button-button {
+  font-family: PTSans, Bold, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+
+
+  width: 458px;
+  height: 58px; 
   color: #fff;
-  background-color:#82b3d4; 
+  background-color: #81b3d2; 
   vertical-align: middle;
   border: none;
 }
@@ -280,13 +686,16 @@ a {
 } 
 
 
-
 .page-footer {
   color: #ffffff;
 
   background-color: #f9fbf6;
   background-position: 0 0;
   background-repeat: repeat;
+
+  width: 1200px;
+  height: 120px;
+  opacity: 0.9;
   
 }
 
@@ -301,7 +710,16 @@ a {
 }
 
 .visitsedona {
-  text-align: left;
+  width: 136px;
+  height: 16px;
+  font-family: PTSans, Bold, Arial, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
 
 }
 
@@ -313,50 +731,82 @@ a {
 } 
 
 .twitter {
-  background-image: url("../img/twitter.svg");
+  /*background-image: url("../img/twitter.svg");*/
+  background-repeat: no-repeat;
+  color: #81B3D2;
+  background-color: #5596be;
   width: 46px;
-  height: 49px;
+  height: 48px;
+  padding: 23px 13px 13px ;
 }
 
 .twitter svg: hover,
 .twitter svg: focus {
-  color: #89b7d1;
-  background-color: #669ebf;
+  fill: currentColor;
+  color: #5596be;
+
+  
 }
 
 
 .facebook {
-  background-image: url("../img/fb-icon.svg");
-  text-decoration: none;
+  /*background-image: url("../img/fb-icon.svg");*/
+  background-repeat: no-repeat;
+  color: #81B3D2;
+  background-color: #5596be;
   width: 46px;
-  height: 49px;
+  height: 48px;
+  padding:23px 13px 13px;
+  margin-left: 6px;
 }
 
 .facebook svg:hover,
 .facebook svg:focus {
-  color: #89b7d1;
-  background-color: #669ebf;
+  fill: currentColor;
+  color: #5596be;
 }
 
 
 .youtube {
-  background-image: url("../img/youtube.svg");
-  text-decoration: none;
+  background-repeat: no-repeat;
+  color: #81B3D2;
+  background-color: #5596be;
   width: 46px;
-  height: 49px;
+  height: 48px; 
+  padding:23px 13px 13px;
+  margin-left: 6px;
 
 } 
 
 .youtube svg:hover,
 .youtube svg:focus {
-  color: #89b7d1;
-  background-color : #669ebf;
-  text-decoration: none;
+  fill: currentColor;
+  color: #5596be;
 }
+
+.Layer_1 {
+  width: 115px;
+  height: 41px;
+  object-fit: contain;
+  background-color: #231f20;
+  text-align: right;
+}
+
+.etd p{
+  font-family: PTSans, Bold, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+}
+
 
 .copyright a, span {
   color:#424242;
-  text-align: right;
+  
 
 } 
 
@@ -365,6 +815,7 @@ a {
   color: #94b9d4;
   background-color: #80b3d2;
 }
+
 
 
 

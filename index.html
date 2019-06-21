@@ -16,13 +16,8 @@
 			<!--Здесь большая фоновая картинка с текстом-->			
 			
 			<a class="main-header-logo"> 
-                <img src="img/logo-sedona.svg" width="138" height="70" alt="Логотип Седона"> 
-            </a>
-
-            <!--<img src="img/main_photo.jpg" width="1200" height="720" alt="Вид на горы">-->
-            <img src="img/welcome.svg" width="279" height="91" alt="Надпись Добро пожаловать в город Седона">
-            <p>Седона - небобольшой городок в Аризоне, заслуживающий большего</p>
-
+                <img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип Седона"> 
+           </a>
 			
 		   <ul class="site-navigation">
 				<li> 
@@ -38,6 +33,17 @@
                 	<a class="hotels-link" href="inner.html">Гостиницы</a>
                 </li>	
 		  </ul>	
+
+		  <container class="welcome" width="1200" height="216">
+            <img src="img/welcome.svg" width="459" height="353" alt="Надпись Добро пожаловать в город Седона">
+            <p class="deserves_better">Седона - небольшой городок в Аризоне, заслуживающий большего</p>
+            <p class="five_reasons"> Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон! </p>
+          </container> 
+
+            <container class="polygon">
+            	<img src="img/polygon.svg" width="1201" height="59" alt="Седона лучше Гранд Каньон">
+            </container>
+
 		</nav>   	
 	</header>
 
@@ -53,32 +59,39 @@
 			<div class="real-town">
 				
 				<figure class="real_town">
-				   <h3 class="page-title">Настоящий городок</h3>
-				   <p class="numbers">- №1 - </p>
-				   <img src="img/picture_01.jpg" width="800" height="285" alt="изображение отеля">
+				   
+				   <h3 class="page-title1">Настоящий городок
+				   	  <br>
+				      — №1 —
+				   </h3>
+				   <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+				   
 				</figure>
 			</div>
 
+			<container class="real_town_picture">
+				<img src="img/picture_01.jpg" alt="изображение отеля">
+			</container>
+
 			<ul class="features-list">
 				<li class="feature-item">	
-				  
-
-					<h4 class="accommodation">Жилье</h4> 
+				    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="72" viewBox="0 0 75 72"><image id="icon-accommodation" width="75" height="72" xlink:href="data:img/png;base64,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"/></svg>
+					<h3 class="accommodation">Жилье</h3> 
 					<p>Рекомендуем пожить в настоящем мотеле, как в кино!</p>
 					
 				</li>
 
 				<li class="feature-item">
 					
-
-					<h4 class="food">Еда</h4>
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="70" viewBox="0 0 74 70"><image id="icon-food" width="74" height="70" xlink:href="data:img/png;base64,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"/></svg>
+					<h3 class="food">Еда</h3>
 					<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
 					
 				</li>
 
 				<li class="feature-item">
-					
-					<h4 class="souvenir">Сувениры</h4>
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="76" viewBox="0 0 64 76"><image id="icon-souvenir" width="64" height="76" xlink:href="data:img/png;base64,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"/></svg>
+					<h3 class="souvenir">Сувениры</h3>
 					<p>Не только китайского, но и местого производства!</p>
 					
 				</li>
@@ -87,36 +100,43 @@
 
 		<!-- Достопримечательности -->
 		<section class="container"> 
+               <container class="sightseeing-picture"> 
+               	   <img src="img/picture_02.jpg" class="hotel-view" width="800" height="255" alt="вид на горы"> 
+               </container>
 
-            <div class="sightseeings">
-				<!--картинка-->
-				
-			</div>
 
 			<ul class="sightseeing-list">
 
 				<li class="sightseeng-item-one">
-					<img src="img/picture_02.jpg" class="hotel-view" width="800" height="255" alt="вид на горы">
-					<h4>Там есть мост Дьявола</h4>
-					<p class="numbers">- №2 - </p>
+					
+					<h3>Там есть Мост дьявола
+						<br>
+					    — №2 —
+				    </h3>
 					<p>Да, по нему можно пройти! Если конечно вы осмелитесь!</p>
 				</li>
 
 				<li class="sightseeng-item-two">
-					<h4>Небольшая площадь </h4>
-					<p class="numbers">- №3 - </p>
+					<h3>Небольшая площадь
+						<br>
+					— №3 — 
+				    </h3>
 					<p>Все достопримечательности находятся очень близко</p>
 				</li>
 
 				<li class="sightseeng-item-three">
-					<h4>Красивая дорога </h4>
-					<p class="numbers">- №4 - </p>
+					<h3>Красивая дорога
+						<br>
+					   — №4 —
+				    </h3>
 					<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
 				</li>
 
 				<li class="sightseeng-item-four">
-					<h4>Мало туристов </h4>
-					<p class="numbers">- №5 - </p>
+					<h3>Мало туристов
+						<br>
+						— №5 —
+					</h3>
 					<p>Большинство едет в Гранд Каньон и толпится там</p>
 				</li>
 
@@ -127,11 +147,11 @@
 		<!--Поиск отеля -->
 		<section class="find-hotel">
 			<div class="form">
-				<!--Картинка карты-->
+				<container class="etd">
 				<h5>Заинтересовались?</h5>
 				<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
 				<img src="img/map_sedona.jpg" width="1200" height="475" alt="карта Штата"></p>
-				<!--Форма-->
+				</container>
 
 			  <a class="hotel-search-button" href="#">Поиск гостиницы в Седоне</a>
 
@@ -140,13 +160,14 @@
                         <p class="date-check-in">
 						   <label for="date-check-in">Дата заезда</label>
 						   <input type="text" class="filter_check-in" name="date-check-in" value="24 апреля 2017" placeholder="24 апреля 2017">
-						   <button type="button" class"btn-button"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" alt="календарь"><path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"/><path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/></svg>
+
+						   <button type="button" class="btn-button"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" alt="календарь"><path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"/><path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/></svg>
 						   </button>
 						</p>
 
 						<p class="date-check-out">
 							<label for="date-check-out">Дата выезда</label>
-							<input type="text" class="filter_check-out" name="date-check-out" value="4 июля 2017 года"placeholder="4 июля 2017 года">
+							<input type="text" class="filter_check-out" name="date-check-out" value="4 июля 2017 года" placeholder="4 июля 2017 года">
                             
                             <button type="button" class="btn-button"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" alt="календарь"><path d="M19.251 2.025h-2.845V.648c0-.381-.294-.689-.656-.689-.363 0-.656.308-.656.689v1.377h-3.938V.648c0-.381-.294-.689-.655-.689-.363 0-.657.308-.657.689v1.377H5.906V.648c0-.381-.294-.689-.656-.689-.363 0-.657.308-.657.689v1.377H1.75C.784 2.025 0 2.847 0 3.862v16.302C0 21.179.784 22 1.75 22h17.501c.966 0 1.749-.821 1.749-1.836V3.862c0-1.015-.783-1.837-1.749-1.837zm.437 18.139a.448.448 0 0 1-.437.459H1.75a.45.45 0 0 1-.438-.459V3.862a.45.45 0 0 1 .438-.459h2.844v1.378c0 .381.294.689.657.689.362 0 .656-.308.656-.689V3.403h3.938v1.378c0 .381.294.689.657.689.361 0 .655-.308.655-.689V3.403h3.938v1.378c0 .381.293.689.656.689.362 0 .656-.308.656-.689V3.403h2.845c.241 0 .437.206.437.459v16.302z"/><path d="M4.594 8.225h2.625v2.066H4.594zM4.594 11.668h2.625v2.067H4.594zM4.594 15.112h2.625v2.066H4.594zM9.188 15.112h2.625v2.066H9.188zM9.188 11.668h2.625v2.067H9.188zM9.188 8.225h2.625v2.066H9.188zM13.781 15.112h2.625v2.066h-2.625zM13.781 11.668h2.625v2.067h-2.625zM13.781 8.225h2.625v2.066h-2.625z"/></svg>
                             </button>
@@ -155,27 +176,24 @@
 						<p class="adults-info">
 							<label for="adults-info">Взрослые</label>
 							
-						  <button type="button" class="btn-button"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="3" viewBox="0 0 12 3" alt="знак минус">
-  							<image id="_копия" data-name=" копия" width="12" height="3" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAADCAYAAACnI+4yAAAAJklEQVQImWNcuXJlKAMDwyoG4kAYEwMDgxKRikFACaSBeMDAwAAA4bEDmgdSTr8AAAAASUVORK5CYII="/></svg>
+						  <button type="button" class="btn-button"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="3" viewBox="0 0 12 3" alt="знак минус"><image id="_копия" data-name=" копия" width="12" height="3" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAADCAYAAACnI+4yAAAAJklEQVQImWNcuXJlKAMDwyoG4kAYEwMDgxKRikFACaSBeMDAwAAA4bEDmgdSTr8AAAAASUVORK5CYII="/></svg>
   						  </button>
 						    
 						    <input type="text" class="filter_adults" name="quantity-of-adults" value="2" placeholder="2">
 
-						    <button type="button" class="btn-button"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="11" viewBox="0 0 11 11" alt="знак плюс">
-  							<image id="_копия" data-name=" копия" width="11" height="11" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAVUlEQVQYlWNkQAMrV648w8DAYMzAwHA2PDzcBFmWCV0xVCEyjVcxTkCSYkYkNxICZ5mIVAj2A0jxeyIVv8cWdP9h7PDwcBR52oUGNsUwP6D6hYGBAQDrUhFjIwl98gAAAABJRU5ErkJggg=="/></svg>
+						    <button type="button" class="btn-button"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="11" viewBox="0 0 11 11" alt="знак плюс"><image id="_копия" data-name=" копия" width="11" height="11" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAVUlEQVQYlWNkQAMrV648w8DAYMzAwHA2PDzcBFmWCV0xVCEyjVcxTkCSYkYkNxICZ5mIVAj2A0jxeyIVv8cWdP9h7PDwcBR52oUGNsUwP6D6hYGBAQDrUhFjIwl98gAAAABJRU5ErkJggg=="/></svg>
   						    </button>
 						</p> 
 
 						<p class="kids-info">
 							<label for="kids-info">Дети</label>
-                            <button type="button" class"btn-button"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="3" viewBox="0 0 12 3" alt="знак минус">
+                            <button type="button" class="btn-button"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="3" viewBox="0 0 12 3" alt="знак минус">
   							<image id="_копия" data-name=" копия" width="12" height="3" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAADCAYAAACnI+4yAAAAJklEQVQImWNcuXJlKAMDwyoG4kAYEwMDgxKRikFACaSBeMDAwAAA4bEDmgdSTr8AAAAASUVORK5CYII="/></svg>
   						    </button>
 
 							<input type="text" class="filter_kids" name="quantity-of-kids" value="0" placeholder="0">
 
-							<button type="button" class"btn-button"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="11" viewBox="0 0 11 11" alt="знак плюс">
-  							<image id="_копия" data-name=" копия" width="11" height="11" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAVUlEQVQYlWNkQAMrV648w8DAYMzAwHA2PDzcBFmWCV0xVCEyjVcxTkCSYkYkNxICZ5mIVAj2A0jxeyIVv8cWdP9h7PDwcBR52oUGNsUwP6D6hYGBAQDrUhFjIwl98gAAAABJRU5ErkJggg=="/></svg>
+							<button type="button" class="btn-button"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="11" viewBox="0 0 11 11" alt="знак плюс"><image id="_копия" data-name=" копия" width="11" height="11" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAVUlEQVQYlWNkQAMrV648w8DAYMzAwHA2PDzcBFmWCV0xVCEyjVcxTkCSYkYkNxICZ5mIVAj2A0jxeyIVv8cWdP9h7PDwcBR52oUGNsUwP6D6hYGBAQDrUhFjIwl98gAAAABJRU5ErkJggg=="/></svg>
   						    </button>
 						</p>
 
@@ -194,22 +212,22 @@
 				<a href="#" class="visitsedona" alt="хештег">#visitsedona</a>
 		
 			<div class="social-network">
-                <a href="#" class="twitter">
-                    Мы в twitter 
+                <a href="#" class="twitter"> 
+                	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="15" viewBox="0 0 17 15"><path fill="#FFF" d="M10.95.144c1.685-.496 2.984.27 3.577 1.179.673-.231 1.331-.481 2.011-.708a2.345 2.345 0 0 1-.857 1.768c.685.17 1.304-.491 1.304-.491-.169 1-1.006 1.788-1.563 2.024-.231 6.75-3.175 11.217-10.077 11.082h-.446c-.41 0-4.164-.46-4.898-1.887 2.271.196 3.893-.422 4.693-1.177-.96-.3-2.679-.477-2.979-2.95.349.106.564.228 1.19.119C1.705 8.247.374 7.53.448 5.33c.285.328 1.067.536 1.34.472C1.085 5.561-.182 2.442.894.85c1.818 1.854 3.735 3.606 7.152 3.773C8.254 2.33 9.183.793 10.95.144z"/></svg>
                 </a>
 
                 <a href="#" class="facebook">
-                    Мы в facebook 
+                	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="22" viewBox="0 0 12 22"><path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg>
                 </a>
 
                 <a href="#" class="youtube">
-                    Мы на Youtube
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="16" viewBox="0 0 20 16"><path fill="#FFF" d="M17 0H3C1.35 0 0 1.35 0 3v10c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3zM6.027 11.998V4.002L15.014 8l-8.987 3.998z"/></svg>
                 </a>
             </div>
 
 			<a href="https://htmlacademy.ru/" class="copyright">
 				<span>website by
-				<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 36" width="108" height="36" alt="логотип htmlacademy"><title>logo-htmlacademy-small1</title><path d="M44.61,26.88a2,2,0,0,0,.55-0.1v1.33a3.25,3.25,0,0,1-1.18.21,1.67,1.67,0,0,1-1.67-1,4.84,4.84,0,0,1-3.14,1.08c-1.51,0-2.91-.83-2.91-2.55,0-2.13,2-2.79,3.71-2.79a11.08,11.08,0,0,1,2.17.25v-0.3c0-1-.76-1.77-2.19-1.77a7.42,7.42,0,0,0-3,.64v-1.7a10.21,10.21,0,0,1,3.19-.55c2.36,0,3.81,1.12,3.81,3.65v3a0.54,0.54,0,0,0,.49.59h0.17Zm-6.44-1.13A1.35,1.35,0,0,0,39.63,27h0.11a3.39,3.39,0,0,0,2.41-1V24.58a9.72,9.72,0,0,0-1.81-.21c-1,0-2.16.33-2.16,1.38h0Zm12.36-6.11a5,5,0,0,1,2.57.64V22a4.08,4.08,0,0,0-2.3-.7,2.75,2.75,0,1,0,0,5.49,5,5,0,0,0,2.43-.64v1.71a6.27,6.27,0,0,1-2.76.57A4.21,4.21,0,0,1,46,24.51q0-.21,0-0.41a4.32,4.32,0,0,1,4.18-4.46h0.38Zm12.17,7.24a2,2,0,0,0,.55-0.1v1.33a3.25,3.25,0,0,1-1.18.21,1.67,1.67,0,0,1-1.67-1,4.84,4.84,0,0,1-3.14,1.08c-1.51,0-2.91-.83-2.91-2.55,0-2.13,2-2.79,3.71-2.79a11.08,11.08,0,0,1,2.17.25v-0.3c0-1-.76-1.77-2.19-1.77a7.42,7.42,0,0,0-3,.64v-1.7a10.21,10.21,0,0,1,3.19-.55c2.36,0,3.81,1.12,3.81,3.65v3a0.54,0.54,0,0,0,.49.59h0.17Zm-6.44-1.13A1.35,1.35,0,0,0,57.73,27h0.11a3.39,3.39,0,0,0,2.41-1V24.58a9.72,9.72,0,0,0-1.81-.21c-1.06,0-2.16.33-2.16,1.38h0ZM73,16V28.2H71.35V26.88a3.88,3.88,0,0,1-3.19,1.54,4.4,4.4,0,0,1,0-8.78,3.81,3.81,0,0,1,3,1.3V16H73Zm-4.53,5.22a2.76,2.76,0,1,0,0,5.52A2.86,2.86,0,0,0,71.15,25V23A2.91,2.91,0,0,0,68.49,21.27ZM79,19.64c3.31,0,4.46,2.68,3.92,5.09H76.7c0.21,1.5,1.67,2.11,3.19,2.11a6.11,6.11,0,0,0,2.64-.59v1.6a7.14,7.14,0,0,1-3,.57C77,28.42,74.78,27,74.78,24a4.18,4.18,0,0,1,4-4.39H79Zm0.09,1.54a2.28,2.28,0,0,0-2.44,2.1v0.06H81.3A2,2,0,0,0,79.13,21.18Zm5.73,7V19.87h1.65v1a3.81,3.81,0,0,1,2.78-1.27A2.86,2.86,0,0,1,91.89,21a4.12,4.12,0,0,1,2.91-1.33A3.06,3.06,0,0,1,98,23V28.2h-1.9V23.05a1.59,1.59,0,0,0-1.42-1.75H94.42a2.8,2.8,0,0,0-2.07,1.12V28.2h-1.9V23.05A1.59,1.59,0,0,0,89,21.31H88.8a3,3,0,0,0-2.21,1.29v5.63H84.86Zm21.31-8.33h1.9l-3.91,9.46c-0.9,2.17-2.09,2.86-3.35,2.86a4.76,4.76,0,0,1-1.1-.14V30.46a2.86,2.86,0,0,0,.85.12c0.9,0,1.58-.64,2.07-1.9l0.17-.42-4-8.4h2l2.86,6.29ZM38.73,1.46V6.22a3.81,3.81,0,0,1,2.7-1.14,3.25,3.25,0,0,1,3.44,3.4v5.15H43V8.72a1.81,1.81,0,0,0-1.61-2h-0.3a2.93,2.93,0,0,0-2.32,1.39v5.52h-1.9V1.46h1.9ZM49.94,2.31v3h3V6.91h-3v3.81c0,1.1.5,1.46,1.58,1.46a4.49,4.49,0,0,0,1.69-.33v1.6A6.8,6.8,0,0,1,51,13.8a2.55,2.55,0,0,1-2.86-2.74V6.89H46.58V5.26h1.5V2.74Zm5.4,11.31V5.28H57v1A3.81,3.81,0,0,1,59.77,5a2.86,2.86,0,0,1,2.6,1.33A4.12,4.12,0,0,1,65.28,5,3.06,3.06,0,0,1,68.44,8.4v5.21h-1.9V8.46a1.59,1.59,0,0,0-1.42-1.75H64.89a2.8,2.8,0,0,0-2.07,1.12v5.78h-1.9V8.46A1.59,1.59,0,0,0,59.5,6.71H59.27A3,3,0,0,0,57.06,8v5.63H55.34ZM71.17,1.45H73V13.6H71.17V1.45ZM14.71,0H14.55L0,1.54V28.21l14.55,8.66,14.55-8.66V1.54Zm12.5,27.1L14.55,34.64,1.9,27.12V16.18l12.59,7.5V25L5.86,19.9v1.31l8.68,5.21v1.39L5.87,22.65V24l8.68,5.21,8.75-5.24V18.31L27.2,16V27.12Zm0-12.53-3.48,2-1.6,1L14.51,13v1.31L21,18.23H21l-0.14.09-1,.54-5.37-3.2V17l4.24,2.52-1,.67-3.2-1.9v1.31l2.1,1.24L14.5,22.1,2,14.65,14.51,7.11Zm0-1.32L14.49,5.76,1.91,13.25v-10L14.56,1.92,27.21,3.25v10h0Z" transform="translate(0 -0.02)" fill="#231f20"/></svg></span>
+				<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115 41" width="115" height="41" alt="логотип htmlacademy"><title>logo-htmlacademy-small1</title><path d="M44.61,26.88a2,2,0,0,0,.55-0.1v1.33a3.25,3.25,0,0,1-1.18.21,1.67,1.67,0,0,1-1.67-1,4.84,4.84,0,0,1-3.14,1.08c-1.51,0-2.91-.83-2.91-2.55,0-2.13,2-2.79,3.71-2.79a11.08,11.08,0,0,1,2.17.25v-0.3c0-1-.76-1.77-2.19-1.77a7.42,7.42,0,0,0-3,.64v-1.7a10.21,10.21,0,0,1,3.19-.55c2.36,0,3.81,1.12,3.81,3.65v3a0.54,0.54,0,0,0,.49.59h0.17Zm-6.44-1.13A1.35,1.35,0,0,0,39.63,27h0.11a3.39,3.39,0,0,0,2.41-1V24.58a9.72,9.72,0,0,0-1.81-.21c-1,0-2.16.33-2.16,1.38h0Zm12.36-6.11a5,5,0,0,1,2.57.64V22a4.08,4.08,0,0,0-2.3-.7,2.75,2.75,0,1,0,0,5.49,5,5,0,0,0,2.43-.64v1.71a6.27,6.27,0,0,1-2.76.57A4.21,4.21,0,0,1,46,24.51q0-.21,0-0.41a4.32,4.32,0,0,1,4.18-4.46h0.38Zm12.17,7.24a2,2,0,0,0,.55-0.1v1.33a3.25,3.25,0,0,1-1.18.21,1.67,1.67,0,0,1-1.67-1,4.84,4.84,0,0,1-3.14,1.08c-1.51,0-2.91-.83-2.91-2.55,0-2.13,2-2.79,3.71-2.79a11.08,11.08,0,0,1,2.17.25v-0.3c0-1-.76-1.77-2.19-1.77a7.42,7.42,0,0,0-3,.64v-1.7a10.21,10.21,0,0,1,3.19-.55c2.36,0,3.81,1.12,3.81,3.65v3a0.54,0.54,0,0,0,.49.59h0.17Zm-6.44-1.13A1.35,1.35,0,0,0,57.73,27h0.11a3.39,3.39,0,0,0,2.41-1V24.58a9.72,9.72,0,0,0-1.81-.21c-1.06,0-2.16.33-2.16,1.38h0ZM73,16V28.2H71.35V26.88a3.88,3.88,0,0,1-3.19,1.54,4.4,4.4,0,0,1,0-8.78,3.81,3.81,0,0,1,3,1.3V16H73Zm-4.53,5.22a2.76,2.76,0,1,0,0,5.52A2.86,2.86,0,0,0,71.15,25V23A2.91,2.91,0,0,0,68.49,21.27ZM79,19.64c3.31,0,4.46,2.68,3.92,5.09H76.7c0.21,1.5,1.67,2.11,3.19,2.11a6.11,6.11,0,0,0,2.64-.59v1.6a7.14,7.14,0,0,1-3,.57C77,28.42,74.78,27,74.78,24a4.18,4.18,0,0,1,4-4.39H79Zm0.09,1.54a2.28,2.28,0,0,0-2.44,2.1v0.06H81.3A2,2,0,0,0,79.13,21.18Zm5.73,7V19.87h1.65v1a3.81,3.81,0,0,1,2.78-1.27A2.86,2.86,0,0,1,91.89,21a4.12,4.12,0,0,1,2.91-1.33A3.06,3.06,0,0,1,98,23V28.2h-1.9V23.05a1.59,1.59,0,0,0-1.42-1.75H94.42a2.8,2.8,0,0,0-2.07,1.12V28.2h-1.9V23.05A1.59,1.59,0,0,0,89,21.31H88.8a3,3,0,0,0-2.21,1.29v5.63H84.86Zm21.31-8.33h1.9l-3.91,9.46c-0.9,2.17-2.09,2.86-3.35,2.86a4.76,4.76,0,0,1-1.1-.14V30.46a2.86,2.86,0,0,0,.85.12c0.9,0,1.58-.64,2.07-1.9l0.17-.42-4-8.4h2l2.86,6.29ZM38.73,1.46V6.22a3.81,3.81,0,0,1,2.7-1.14,3.25,3.25,0,0,1,3.44,3.4v5.15H43V8.72a1.81,1.81,0,0,0-1.61-2h-0.3a2.93,2.93,0,0,0-2.32,1.39v5.52h-1.9V1.46h1.9ZM49.94,2.31v3h3V6.91h-3v3.81c0,1.1.5,1.46,1.58,1.46a4.49,4.49,0,0,0,1.69-.33v1.6A6.8,6.8,0,0,1,51,13.8a2.55,2.55,0,0,1-2.86-2.74V6.89H46.58V5.26h1.5V2.74Zm5.4,11.31V5.28H57v1A3.81,3.81,0,0,1,59.77,5a2.86,2.86,0,0,1,2.6,1.33A4.12,4.12,0,0,1,65.28,5,3.06,3.06,0,0,1,68.44,8.4v5.21h-1.9V8.46a1.59,1.59,0,0,0-1.42-1.75H64.89a2.8,2.8,0,0,0-2.07,1.12v5.78h-1.9V8.46A1.59,1.59,0,0,0,59.5,6.71H59.27A3,3,0,0,0,57.06,8v5.63H55.34ZM71.17,1.45H73V13.6H71.17V1.45ZM14.71,0H14.55L0,1.54V28.21l14.55,8.66,14.55-8.66V1.54Zm12.5,27.1L14.55,34.64,1.9,27.12V16.18l12.59,7.5V25L5.86,19.9v1.31l8.68,5.21v1.39L5.87,22.65V24l8.68,5.21,8.75-5.24V18.31L27.2,16V27.12Zm0-12.53-3.48,2-1.6,1L14.51,13v1.31L21,18.23H21l-0.14.09-1,.54-5.37-3.2V17l4.24,2.52-1,.67-3.2-1.9v1.31l2.1,1.24L14.5,22.1,2,14.65,14.51,7.11Zm0-1.32L14.49,5.76,1.91,13.25v-10L14.56,1.92,27.21,3.25v10h0Z" transform="translate(0 -0.02)" fill="#231f20"/></svg></span>
  
 			</a>
 			
